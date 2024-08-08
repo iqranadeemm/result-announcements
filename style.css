@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: white; 
+    color: black;
+}
+
+header .logo {
+    width: 150px; 
+    height: auto;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+#submitResults {
+    background-color: #fff;
+    border: 3px solid green; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(228, 107, 107, 0.1);
+    text-align: center;
+    width: 100%; 
+    max-width: 1200px; 
+    box-sizing: border-box; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+/* Form Styles */
+#submitResults h2 {
+    font-size: 20px;
+    color: #4b0202;
+    margin-bottom: 20px;
+}
+
+#resultForm label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#resultForm input {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+}
+
+#resultForm button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2850a7; 
+    color: white;
+    cursor: pointer;
+}
+
+#resultForm button:hover {
+    background-color: #202d9e; 
+
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: green; /* Green color for the <p> elements */
+}
+
+footer strong {
+    font-weight: bold;
+}
+
+#submitResults h2 {
+    font-size: 20px;
+    color: rgb(30, 144, 255); /* Light blue shade */
+    margin-bottom: 20px;
+}
+
+
+
+    
+
+
+
+
+
+
